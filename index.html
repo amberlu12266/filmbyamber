@@ -1,1 +1,64 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/f054bb0f25.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film website</title>
+
+</head>
+<body>
+    <main>
+        <section>
+            <div class="topnav">
+                <a><h1>film by amber</h1></a>
+                <!-- <div class="filter">
+                    <div class="gallery-filter">
+                        <span class="filter-item active" data-filter="all">all</span>
+                        <span class="filter-item " data-filter="seattle">seattle</span>
+                        <span class="filter-item " data-filter="san diego">san diego</span>
+                        <span class="filter-item " data-filter="taiwan">taiwan</span>
+                        <span class="filter-item " data-filter="san francisco">san francisco</span>
+                    </div>
+                </div> -->
+                <a class="split">
+                    <img src="img/sun2.png" id="icon" style="width:24px; float:right;">
+                </a>
+              </div>
+        </section>
+        
+        <div class="container"></div>
+    </main>
+    <div class="footer">
+        <p>
+            Fujifilm Quicksnap Flash 400 (disposable) / Kodak FunSaver 35mm (disposable) / Kodak m38 / Olympus zoom AF 38
+        </p>
+        <!-- <div class="marquee">
+            <div>
+                <h2>film by amber :) film by amber :) film by amber :) film by amber :) film by amber :) film by amber :) film by amber :) film by amber :)</h2>
+            </div>
+        </div> -->
+    </footer>
+
+    <script>
+        var icon = document.getElementById("icon");
+        icon.onclick = function() {
+            document.body.classList.toggle("light-mode");
+            if(document.body.classList.contains("light-mode")) {
+                icon.src = "img/moon3.png";
+            } else {
+                icon.src = "img/sun2.png";
+            }
+        }
+    </script>
+    <script src="items.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
