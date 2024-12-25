@@ -1,437 +1,434 @@
-
-
 const photos = [];
 
 const images = [
   // album 8
   {
-    url: "https://drive.google.com/uc?export=view&id=1dtmlVGz9IR25ShBMs1QNffq7Aq9AB1Vv",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143861/2071030-R1-008-2A_v7ixom.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1GfNUYpYV2FNI65wNfJUkmOV3CnzxRFCo",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735144854/2071030-R1-016-6A_ubimgx.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=16Uy1XF6ky2FdToBfmXNrZ6iHg8nui-gG",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143858/2071030-R1-034-15A_pvvnkh.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1xg89fVD1I4t1qRHEhWJCCRkGys9hQFlF",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143858/2071030-R1-040-18A_objjpg.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1uP9tmqmGsZGOlBkp_7Oj3qBdIgliouvi",
-  },
- 
-  {
-    url: "https://drive.google.com/uc?export=view&id=1ihNh4k02w3YOiw3SedrzHWYZZ3wQIcDM",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735144946/2071030-R1-042-19A_ac62l2.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1BhCEsLIvXOrmLRZb4R-BABwmnr_Vz_YI",
-  },
- 
-  {
-    url: "https://drive.google.com/uc?export=view&id=1KJ8eLf1wullgfksclEUYwVCpVV1jd4p7",
-  },
- 
-  {
-    url: "https://drive.google.com/uc?export=view&id=1PAo95mWw5eMkyOZS1MfldO_4YZbXRy6Z",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143855/2071030-R1-038-17A_krxciw.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1RAIUKGTH8SiIoX_qwG9zNfyRHLD079MD",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143854/2071030-R1-028-12A_qpsofo.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1P3zdC6mLvHfenL6ciQ2OCGAGx7bH7KIp",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735144992/2071030-R1-020-8A_pnee4w.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1EnZfCtSKic36fYknz1o7mCVbiESkV-u5",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143854/2071030-R1-004-0A_hmqhoh.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1rWsc-F6S8MiuG_xi6g06r5qiEmLKJHLa",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143854/2071030-R1-022-9A_wdemdy.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1Rl0Az4qKBQeTa6VP16Kj157aS5GVb2kP",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143854/2071030-R1-044-20A_biwmwz.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1BsUnq6p_v8oZZynApTBNxwlN_NaU0jGs",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143853/2071030-R1-012-4A_gqapwg.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1QYYuHhMv6MmEKhXWhO07tmyq_w4Hz2UZ",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143853/2071030-R1-030-13A_finylm.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1vGeO5iu-NjWO-PHaq0Ql39GotQxYNDas",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143853/2071030-R1-050-23A_fzecxk.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1KVlGsuhYyXlAkzq1VJuPHLnrqmAkbuwn",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143851/2071030-R1-046-21A_sopqc4.jpg",
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143851/2071030-R1-048-22A_px02pb.jpg",
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143851/2071030-R1-058-27A_lnxcks.jpg",
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143849/2071030-R1-002-00A_zwyhcy.jpg",
   },
 
-  // album 
-  
+  // album
+
   {
-    url: "https://drive.google.com/uc?export=view&id=1Xv-QXzbS5gN0eHfUC3mlw2WohtMqFNia",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735145327/2071030-R1-056-26A_ak9cbl.jpg",
   },
-
-
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143848/IMG_7330_aigldm.jpg",
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143848/2071030-R1-000-XA_dldgf1.jpg",
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735145188/2071030-R1-036-16A_tuvcqk.jpg",
+  },
 
   // album bday in tw
   {
-    url: "https://drive.google.com/uc?export=view&id=18Y62r3mvQwIOi4GmbDPuE2GZzxI6WuH0",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143846/Negative-0-025_iqzdws.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1x8tkTnibmi0z_7aDRa1JjO1NvSveyC-H",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143846/2071030-R1-026-11A_u8arsj.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1oD5lVwESNOtP2KNWIoB2iRlqlCfKaJSg",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143845/2071030-R1-032-14A_f5rvkt.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1Zz4NCp4iLG1xoXJ_MF4m36_SzG-0_0Nx",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735145412/2071030-R1-006-1A_ygolqo.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1LlbgbelMx9qe0o0dXG1hKMR9UOlBdfDt",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143844/2071030-R1-010-3A_igdklw.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1ObLXYAqz7pxlosV3_KM3s8KEj0usb2nH",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143842/Negative-0-021_zfyusc.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1x326KO0hcV42z2CXRnJw-KZZpPdJyyaJ",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143840/Negative-0-05_agsbg4.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1O_MwK_QdzIGoXwZQ1wCr1qVRi8G6Y6x7",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143836/Negative0-00-6_co4htu.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1k5EdGmZg6O6KcAC0ngsC2tNajvkkuKqI",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143835/Negative0-00-10_i13i7z.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1y_Qlchh60eP85dXg-xk4UBPF34Ebi22H",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143834/Negative0-00-3_zqwkc7.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1vJcfpXIxSom5c2S8GSq8NWu7U_XY8roI",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143832/Negative0-00-18_fdsncy.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1Y_UQQfmR1jHPQD07lOalAlQBgCgWViiU",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143831/Negative0-00-4_szmvvu.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1J7c8Tpac3zZdiZs18FUNZYv_6A9s7HOk",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143830/Negative0-00-23_wtz5u8.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1S8ooV7OdNCAiGDuTjT58dAyC0OLKUl4B",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143830/Negative0-00-1_x0h9sq.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1wLZkXn26FzP7lehOKqHhEs59wclhi7GY",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143824/Negative0-00-15_ptvds8.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1_qF0N8BkaJUa-M0ICyQwIqHWGALqlADF",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143824/Negative0-00-11_wofm28.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=17y49Wv51OXHezEE834dMnOtPJcqvEZVw",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143821/Negative0-00-19_gj5qxh.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1vmwkq3d3MvkEvUzrnjcZSBf3xqM0Pr6V",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143819/Negative0-00-5_xczniq.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=18yQ3HA3_DbdC81sdl6-Ks6c3mSELL8nC",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143816/Negative0-00-21_qz1up0.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1QxpL-naErU_vXVU5NWZd_oSlVmbiRRjt",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143815/Negative0-00-20_lbrkga.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1colb_9M2BPyPvR9BJUcF653DqoOxWFFE",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143814/Negative0-00-16_ycdfnj.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1xpZGBCZNSQXYNIA8E73l4jlLYlFgl3Iu",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143809/Negative0-00-12_owsw35.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1GA79mbnDVtBBBW_MKvC5ICWPEUwU_bI0",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143808/Negative0-00-0_cegvlt.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=10JoTKtFtWpIY-1OeiwUfeh0goOmOPtL3",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143808/Negative0-00-9_lkrhta.jpg",
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143808/Negative0-00-9_lkrhta.jpg",
   },
 
   // album 7
   {
-    url: "https://drive.google.com/uc?export=view&id=1rmy5uDo_DAwAhAwxP6Blql9gPZ9ilbM9",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143808/Negative0-00-13_sc4eh2.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1N45O-9qxIAelBvkwxgRaL14ILaaBY1QZ",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143808/Negative0-00-2_cygwyz.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1RBMdvOnq21RNHQFDnoK5aN4ZuTol360c",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143801/Negative-010_monpva.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1v22a8ztaHOwh5Ohf9CEJlgd6o_LNxUvJ",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143804/Negative0-00-24_pxquyc.jpg",
   },
   
   {
-    url: "https://drive.google.com/uc?export=view&id=1msupc3fMMWrzYduqHd5001h9ymUMILMu",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143798/Negative-020_hmazn4.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1bYG08EKqCrWfLbV_RZL27F_6IefhLfmA",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143798/Negative-06_fdglap.jpg",
   },
 
   // album 6
   {
-    url: "https://drive.google.com/uc?export=view&id=1P0mHHQfmXWklAbnzRvy9eddxV8IWjDaz",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143797/Negative-05_iwvvji.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1Wy7C32-Vo_bPJLkOHFB0upEH9iAFkunf",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143797/Negative-07_ae0vhe.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1FE53cZkUuoBOZ4Pq9ELRQ-nci323SnLJ",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143795/Negative-021_ntljpe.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1iCviv0-hb7mmGyKMXy9xRfRHjA5TvCrV",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143793/Negative-011_xvdgfn.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1_XEYPePtBcqu9R-aej2r-Y69kmHEl-M6",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143792/Negative-019_juvwl4.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1mD5iXKTi08FKkyzjLWmaJgUOzJO3OUpf",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143791/Negative-016_dy3ife.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=16sW6U9_KPqasNsywg_tljPtw0Z7odIhs",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143790/Negative-09_ibsb64.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=192T_75UcR8XnupbAwJpylwprLp_SYU3Z",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143787/Negative-018_sykkuz.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1dLLfMWBrAAOWjn9qYcR8uApDGMId2JB2",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143786/Negative-015_d8xldz.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1Ye4BaavU9rlM5CvXgCcaMtcNvSUPdyjJ",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143786/Negative-08_m1bdvu.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1dY9vWiIGK9bvQFK_a0jIxT_P54C2EFIW",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143785/Negative-023_ssdloq.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1tqG9r6EZBqQRU0b_3WG7qbHutyF_eM2C",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143785/Negative-03_jq6hqg.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=14Ksy0aFw9YYxC03F4fRhQDuktKAx-1gS",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143782/Negative-014_exjfai.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1coZKspWJRNCqpXZbEzvaESicORaHXZPw",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143781/Negative-012_tc5thj.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1WIf8LUWqHz01H_HYP-ktKkFM5npnUoub",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143777/Negative-01_a5exj7.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=18f69OAomB4bdGEgXDk4CwF6rYd707qe_",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143775/Negative-013_axp0fa.jpg",
   },
 
   // album 5
   {
-    url: "https://drive.google.com/uc?export=view&id=1soZsEl-xwE97SrQYbJmUgjAhP_5Cj_sn",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143774/Negative-017_orubcf.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=10HjRbqgdxSWaqh64fKwmwsU6GddOQw_J",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143774/Negative-024_lccbdb.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=16wDByA_rNVN1UME0cQoX7ox5VkL0RsDC",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735145716/Negative-08_cwyqkj.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1ofEmNaPK1aG7QTDaxOM7rwtE0KiwO9HC",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143766/Negative-013_pcbm4v.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1j8jHmmR3vrnr6jn4pLLvU8bjAXGYx3z0",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143764/Negative-022_krck4w.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=18fx2q4kqISh9Tfz9e0KTA3AXOIs756PH",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143764/Negative-01_papxvv.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1RPto02sX8tk8mIIjVx5DGaFWFUtI1AF7",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143763/Negative-017_rpygrm.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1vZ0201OqTPvAaprb8XR7EUDYKARXMpRs",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143762/Negative-015_cvykxe.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1Zk8gyZ8ZzfS5Ltyibnt0bkgcRw-AbszU",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143760/Negative-04_q3gzkp.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1y4_LBgWqLD5oU5wiZedJ8h9s64Q8Gdeg",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143758/Negative-018_tpi0ix.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1zYhwxIMeLii02bHgkVJd-UkMJVj__OIR",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143758/Negative-024_u7uguw.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1qXEtPCu4HKYNoPyRUEDkamxK1F9uvrqH",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143757/Negative-09_qlpejm.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1oMNu9R6ElBkeVvMFsFaRjY1N7D9GLd99",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143757/Negative-03_lhhbdr.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1zoO-fR-xAPwyUwb13xvRqIAV_99Z0Drp",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143748/Negative-06_v4l20n.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1aTNSUVIVsYI9BwJ1plAHKShXLRf7cY-5",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143747/Negative-016_k9fxsk.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1ac5QnSS92BbfYgKK3hc-mWjUzEU0D-Mn",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143746/Negative-020_fjvoen.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1e50sJQm2Tsko9Ijw6k2Nxmoa7POrOF9F",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143743/Negative-011_v0afl1.jpg",
   },
 
   // album 4
   {
-    url: "https://drive.google.com/uc?export=view&id=1riWnftjXWRRdEBh0BJTxCxhJtmg8DpQ5",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143743/Negative-023_dghmcq.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1Ugk-L_jTZcLAhdQ8yq1gHj2w9YQN6MtE",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143738/Negative-05_xyikfk.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1XjpRMJqgnUtjB1m3jP8waxYxFIiRUDVF",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143737/Negative-014_ssgu0c.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1yoBjBGYP84_h9IfdQijzWoj2FmrrYmlq",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143722/Negative0-24-21A_1_cdcpmg.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1yRIMeAP0S33-yHTZbZc1QDQKRwJuixJ2",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143722/Negative0-18-15A_1_d0dr8l.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1Cjgb29xyf0IC9j4tiW7UQI9mbTwE636y",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143721/Negative0-23-20A_1_zun2aw.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1rqMxdU171bJ8yZlzbwlelg51abzpjr24",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143719/Negative0-25-21A_1_inm2f8.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1_i9NbgVnaZusil47gY1Jj_tnbyfo15q3",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143718/Negative0-02-00A_1_ycyfba.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=153YhvulARFB7HzGxoSeZWCZVtsugGYou",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143717/Negative0-19-16A_1_vg1yhc.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1MyLPiIHWMg2yaE79ECs3mk0Nsb4PEAO6",
-  },
-  {
-    url: "https://drive.google.com/uc?export=view&id=1i9iZd3uvoZTnFq2f-SvvEc3gwgfI0C-S",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143717/Negative0-08-5A_1_pe6ifx.jpg",
   },
 
   // album 3
   {
-    url: "https://drive.google.com/uc?export=view&id=1TmFKH9K4FhRWgWrLhZbKfuI1nRLNJlDy",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143717/Negative0-22-19A_1_ttzd13.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1x5FLfpHkM7IxcwXAoPd8uReM3rMhYeze",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143716/Negative0-18-14A_1_vgumly.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1baLzJzM9UsEOZ_jP_jMhWYDidDF1sJgY",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143716/Negative0-26-22A_1_ou2djh.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1ZAjmcToQWQsmnhmaAQHMtnW7Vjj6rhsm",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143715/Negative0-20-16A_1_y6auin.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1JeDUN89be9VK4ucxyaXnB1Ns8l0pbAZO",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143714/Negative0-13-9A_1_o8hhy9.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1UemSfjL_XJyieQD8wav--BslL4bbxWRb",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143714/Negative0-15-11A_1_mdgbr7.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1urq9ehrtIptRLtbKoR16VK34PWDAAbTt",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143713/Negative0-25-25A_1_cl5ka9.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1LlnlLHDUHiqwPagloikcB8Qy_YlGefdU",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143712/Negative0-11-7A_1_igjqm6.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=19axWp9SkkvM1MyWEI7J3JcXij6LH-PYF",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143712/Negative0-12-8A_1_vcwhxy.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1gONdX3fWana6MRxT3HABJZYB7Zvvw7CB",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143711/Negative0-20-17A_1_uj6hdg.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1HuUdwpzXmA6AWYQ39MIXfP9YEX8vD9CY",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143710/Negative0-17-13A_1_mk2kns.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=15So4mxzbIguflf1fuN9Ruww69vZ3pZSJ",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/v1735143709/Negative0-16-12A_1_jxkw5z.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1UUU8XVyNSYeF7c6OFaZ-yiBk2Y0HD_Bc",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143706/Negative0-10-6A_1_gnhbws.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1rXr1U-NocFIevhb0yyY_LCsX-pb1Onle",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143704/Negative0-24-20A_1_cy12py.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1bs-8ZnJGAn6DJFqksT4o8vPdpal3-b2e",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143704/Negative0-21-17A_1_fybsub.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=15rXoez8xySvgTRgfpAN9PHVE8mbfHgrF",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143702/Negative0-22-18A_1_efvmow.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1HG-ddJhBay4-il8hcU1c_39w8NtRIl3d",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143703/Negative0-09-6A_1_ijg9sm.jpg",
   },
 
   {
-    url: "https://drive.google.com/uc?export=view&id=1K_O89-q-FYmlwS84LMEGPnHAg8D74x4p",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143700/Negative0-08-4A_1_zkc0co.jpg",
   },
 
   // album 2
   {
-    url: "https://drive.google.com/uc?export=view&id=138YLLA_f-r268fgja-9B4eZ_OoPjVLTf",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143699/Negative0-23-19A_1_jvnn4f.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1Gg5aX724tqD2afUwA9Q6sw-cscxRJnKr",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143699/Negative0-09-5A_1_bdyykm.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1uMZ77oWm-1eVE7cPqFhJOI0zuVD9iumg",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143349/4098-03_xxgtwa.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1n9eB_3WHkjcKKfviaaOUu3CLVb6mt3up",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143349/4098-01_sw3rgb.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=12geRz9IKp3Kf1NXTEw6rfgOzMc5TjAH8",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143348/4098-02_o90grq.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1VyzAZhVShhdL5_tIvuY40fTNb62FaASA",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143347/4098-17_plnawi.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1ewNT6bCt5s1lRg31yrEzU8T_0T3OHMvJ",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/v1735143346/4098-07_rxjf3y.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1p8d0VNbpjsNZbmYJhap8b6Dv9FvdHZce",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143346/4098-08_mbyxl0.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1xiHU9PvU9umUa0aq7psOJMs78O959ms9",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143344/4098-11_qtq99q.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1aM7UvvXWqwY-XTyDirXIaJEl3hw80M8s",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143341/4098-04_ocpj5n.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1jolih0SGdDvH8CYIVuArupWUtD-6E_gO",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143341/4098-16_cmgpbc.jpg",
   },
 
   // album 1
   {
-    url: "https://drive.google.com/uc?export=view&id=1sbXsE8Uszsi-Pv6W2cppPnVVcIeFCa91",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143339/4098-12_qcgd9v.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1F6lAiS19aVlcJu4a6E7AZyk8dKt473v7",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143338/4098-13_ihuc35.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=178rbs0a0XcGE23Xsxu3G5LC5HsX8xL9Z",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143252/4097-12_llzo5y.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=16TJwolhiG3o6xfcAKjkjdCvDF-sg61WX",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143246/4097-02_rlzycx.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1ILXjbBnjHFhCw-AJV8whesYsLrr1WCCO",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143246/4097-08_rqkmjg.jpg",
   }, 
   {
-    url: "https://drive.google.com/uc?export=view&id=1FmOR6x-IA1uCyvUTuWyPL_FdHdtk2xQg",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143246/4097-07_ocpzyg.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1mNzL6-qhDH5OyhOS9ocNxBMPrC_rY4NY",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143244/4097-20_rey5oc.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1ioWlbyhPiF28ESETVYtLUdot1K5Ly0vX",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143242/4097-11_tfehu0.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1q4S5NfcPQDwCFZ72SXR_g939VrGkKHjX",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143241/4097-01_trajdr.jpg",
   },
   {
-    url: "https://drive.google.com/uc?export=view&id=1dS_Q3Z5UFCPghfyD8phI9IYTBZOwqsUc",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143240/4097-03_sa7ffc.jpg",
   },
-  {
-    url: "https://drive.google.com/uc?export=view&id=1tou1isF0HSb9OGbmOBt5O--OvjWjjG0E",
-  },
-  {
-    url: "https://drive.google.com/uc?export=view&id=1yWA2eaRsaf5Ep1rOjQ5ELRSRLiuTYJNm",
-  },
+  
 ];
 
 let imageIndex = 0;
