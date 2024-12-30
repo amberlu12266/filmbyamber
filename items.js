@@ -1,6 +1,83 @@
 const photos = [];
 
 const images = [
+  // amalfi
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560498/negative0-00-22_xoplz0.jpg", tags: ["amalfi", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560484/negative0-00-23_mkv6ui.jpg", tags: ["amalfi", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560487/negative0-00-13_h9fnxj.jpg", tags: ["amalfi", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560488/negative0-00-19_svsir3.jpg", tags: ["amalfi", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560491/negative0-00-25_f2dsqd.jpg", tags: ["amalfi", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560482/negative0-00-11_hzw5bh.jpg", tags: ["amalfi", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560492/negative0-00-15_maopny.jpg", tags: ["amalfi", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560493/negative0-00-24_vguslf.jpg", tags: ["amalfi", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560494/negative0-00-7_mcnsfl.jpg", tags: ["amalfi", "2024"],
+  },
+  // { smoking
+  //   url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560496/negative0-00-10_mbsvzy.jpg", tags: ["amalfi", "2024"],
+  // },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560498/negative0-00-9_tlrs47.jpg", tags: ["amalfi", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560502/negative0-00-14_cc6i5p.jpg", tags: ["amalfi", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560503/negative0-00-21_reoi6s.jpg", tags: ["amalfi", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560503/negative0-00-6_dkdo4q.jpg", tags: ["amalfi", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560503/negative0-00-1_n04o44.jpg", tags: ["amalfi", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560506/negative0-00-17_bnmyuk.jpg", tags: ["amalfi", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560509/negative0-00-20_fjkmv0.jpg", tags: ["amalfi", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560510/negative0-00-18_jlo0ui.jpg", tags: ["amalfi", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560512/negative0-00-4_pgcn7f.jpg", tags: ["amalfi", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560512/negative0-00-3_rwdy0o.jpg", tags: ["amalfi", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560514/negative0-00-5_tvlcdo.jpg", tags: ["amalfi", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560520/negative0-00-16_bghugp.jpg", tags: ["amalfi", "2024"],
+  },
+  //hawaii
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735561196/negative0-00-3_jki47n.jpg", tags: ["hawaii", "2022"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735561196/negative0-00-4_ihe38f.jpg", tags: ["hawaii", "2022"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735561224/negative0-00-2_dhy0p4.jpg", tags: ["hawaii", "2022"],
+  },
   // album 8
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735143861/2071030-R1-008-2A_v7ixom.jpg",
