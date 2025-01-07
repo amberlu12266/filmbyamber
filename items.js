@@ -1,6 +1,137 @@
 const photos = [];
 
 const images = [
+  // Taiwan
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252832/negative-0-_22_2_p03f1p.jpg", tags: ["Taiwan", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252827/negative-0-_23_lqzrbj.jpg", tags: ["Taiwan", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252824/negative-0-_25_flg1q8.jpg", tags: ["Taiwan", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252810/negative-0-_24_2_szouod.jpg", tags: ["Taiwan", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252807/negative-0-_24_b5zpnk.jpg", tags: ["Taiwan", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252806/negative-0-_22_qam8lh.jpg", tags: ["Taiwan", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252744/negative-0-_8_2_wfdx79.jpg", tags: ["Taiwan", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252803/negative-0-_23_2_csdap5.jpg", tags: ["Taiwan", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252789/negative-0-_19_2_ik4cam.jpg", tags: ["Taiwan", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252785/negative-0-_18_2_mja9fb.jpg", tags: ["Taiwan", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252783/negative-0-_17_2_snnfv7.jpg", tags: ["Taiwan", "2024"],
+  },
+
+
+  // Korea
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252733/negative-0-_11_2_s1wyfv.jpg", tags: ["Korea", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252736/negative-0-_6_2_v5wl3o.jpg", tags: ["Korea", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252738/negative-0-_12_2_ltzxln.jpg", tags: ["Korea", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252741/negative-0-_13_ygcqnx.jpg", tags: ["Korea", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252744/negative-0-_14_2_efki3a.jpg", tags: ["Korea", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252744/negative-0-_8_2_wfdx79.jpg", tags: ["Korea", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252764/negative-0-_9_2_bhkfzp.jpg", tags: ["Korea", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252771/negative-0-_10_2_pfegrx.jpg", tags: ["Korea", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252774/negative-0-_7_2_ltthzd.jpg", tags: ["Korea", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252789/negative-0-_15_2_jqeaj4.jpg", tags: ["Korea", "2024"],
+  },
+
+  //etc
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252762/negative-0-_14_ht6nyy.jpg", tags: ["Bay area", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252773/negative-0-_15_w3zmpw.jpg", tags: ["Bay area", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252777/negative-0-_16_zzlfjq.jpg", tags: ["Bay area", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252788/negative-0-_18_wqljkx.jpg", tags: ["Bay area", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252792/negative-0-_19_wiqkaq.jpg", tags: ["Bay area", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252796/negative-0-_21_b9cxdi.jpg", tags: ["Bay area", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252797/negative-0-_17_rrtwhf.jpg", tags: ["Bay area", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252803/negative-0-_20_mvfdws.jpg", tags: ["Bay area", "2024"],
+  },
+
+  // europe
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252732/negative-0-_10_wwyfgc.jpg", tags: ["netherlands", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252735/negative-0-_3_f2nhes.jpg", tags: ["netherlands", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252736/negative-0-_11_rv9i31.jpg", tags: ["netherlands", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252740/negative-0-_6_zlenly.jpg", tags: ["netherlands", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252741/negative-0-_4_gqxljv.jpg", tags: ["netherlands", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252758/negative-0-_7_rdyeds.jpg", tags: ["netherlands", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252762/negative-0-_1_vedva8.jpg", tags: ["netherlands", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252765/negative-0-_2_vb1aro.jpg", tags: ["belgium", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252792/negative-0-_9_oevlmn.jpg", tags: ["netherlands", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252800/negative-0-_5_yxk31u.jpg", tags: ["netherlands", "2024"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1736252768/negative-0-_8_teth4d.jpg", tags: ["netherlands", "2024"],
+  },
+
+  
+  
   // amalfi
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto/v1735560498/negative0-00-22_xoplz0.jpg", tags: ["amalfi", "2024"],
