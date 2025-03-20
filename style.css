@@ -1,19 +1,14 @@
 @font-face {
-    font-family: 'neue_metanabold';
-    src: url('neuemetana-bold-webfont.woff2') format('woff2'),
-         url('neuemetana-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'dogica';
+    src: url('fonts/dogica.otf');
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
 
 * {
     margin: 0;
     /* padding: 0; */
     box-sizing: border-box;
     color: var(--text-color);
-    font-family: 'neue_metanabold', sans-serif;
+    font-family: 'dogica', sans-serif;
     transition: 0.5s ease-in-out;
 }
 
@@ -29,7 +24,7 @@ html, body{
 }
 
 .light-mode {
-    --background-color: #f3efe8;
+    --background-color: #f1efeb;
     --text-color: #0b0b0b;
 }
 
@@ -47,12 +42,11 @@ main {
 .topnav {
     background-color: var(--background-color);
     overflow: hidden;
-    position: fixed;
     width: 100%;
-    height: 80px;
+    height:fit-content;
     display: flex;
     align-items: center;
-    padding: 0 2vw;
+    padding: 32px 2vw;
     z-index: 10;
     justify-content: space-between;
   }
@@ -117,14 +111,14 @@ main {
     width: 100%;
     display: flex;
     gap: 12px;
-    padding:80px 2vw;
+    padding:8px 2vw;
 }
 
 .column {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 10px;
 }
 
 .photos {
@@ -141,11 +135,13 @@ img {
 
 .footer {
     color: var( --text-color);
+    background-color: var(--background-color);
     bottom: 0;
-    position: absolute;
     width: 100%;
-    height: 60px;
-    text-align: center;    
+    height:fit-content;
+    text-align: center;   
+    line-height: 150%; 
+    padding: 32px 32px;
 }
 
 
@@ -156,7 +152,7 @@ img {
 /* Fonts */
 
 h1 {
-    font-size: 30px;
+    font-size: 32px;
 }
 
 h2 {
@@ -164,8 +160,9 @@ h2 {
 }
 
 p {
-    font-family: 'Sofia Sans', sans-serif;
-    font-size: 16px;
+    font-family: 'Dogica', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
 }
 
 

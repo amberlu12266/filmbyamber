@@ -199,6 +199,22 @@ const images = [
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735560520/negative0-00-16_bghugp.jpg", tags: ["amalfi", "2024"],
   },
+  //coachella
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1742429436/IMG_3860_2_wvyyqw.jpg", tags: ["coachella", "2023"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1742429436/IMG_3236_qtskuz.jpg", tags: ["coachella", "2023"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1742429436/IMG_3235_w6ma7e.jpg", tags: ["coachella", "2023"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1742429436/IMG_3230_gucwpk.jpg", tags: ["coachella", "2023"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1742429436/IMG_3233_lupxh5.jpg", tags: ["coachella", "2023"],
+  },
   //hawaii
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735561196/negative0-00-3_jki47n.jpg", tags: ["hawaii", "2022"],
