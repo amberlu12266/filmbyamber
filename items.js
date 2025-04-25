@@ -81,7 +81,7 @@ const images = [
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623134/19_mcdign.jpg", tags: ["Coachella 2025", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623135/21_tjjnwe.jpg", tags: ["Coachella 2025", "2025"],
+    // url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623135/21_tjjnwe.jpg", tags: ["Coachella 2025", "2025"],
   },
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623134/18_qh6zxd.jpg", tags: ["Coachella 2025", "2025"],
