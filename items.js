@@ -1,6 +1,166 @@
 const photos = [];
 
 const images = [
+  // coachella 2025
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623155/46_c5i2mf.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623155/45_gumx9g.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623153/44_pur8yh.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623153/43_g1bh9z.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623152/42_xpht3v.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623152/41_ize6cp.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623150/40_zxevyg.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623150/39_bhywcr.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623149/38_bk2xr7.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623149/37_usi9r7.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623147/36_ecg1ib.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623146/35_wepywg.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623144/33_qdgcdt.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623144/32_nn5cdu.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623143/31_szxtez.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623142/30_cemwjz.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623142/29_vop4s4.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623140/28_pm16ug.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623139/26_jxri8m.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623139/27_z64kfc.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623138/24_wnqtie.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623139/25_ipmbdo.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623138/23_jil9re.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623136/22_xaqfo6.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623135/20_wiesce.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623134/19_mcdign.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623135/21_tjjnwe.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623134/18_qh6zxd.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623132/17_bfys4l.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623131/15_qe7apz.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623131/16_fxf9fk.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623130/14_zrcyep.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623130/13_c186hl.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623119/12_cacdic.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623109/11_w09yyu.jpg", tags: ["Coachella 2025", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623107/10_sby20t.jpg", tags: ["Coachella 2025", "2025"],
+  },
+
+  // bay area
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623156/47_fhqqfl.jpg", tags: ["Bay area", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623156/48_xd69ny.jpg", tags: ["Bay area", "2025"],
+  }, 
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623159/50_ghgjct.jpg", tags: ["Bay area", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623160/52_sirg7s.jpg", tags: ["Bay area", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623159/49_c6rkfn.jpg", tags: ["Bay area", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623160/51_vnutfg.jpg", tags: ["Bay area", "2025"],
+  },
+
+  // tahoe
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623106/9_rjxtsf.jpg", tags: ["Tahoe", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623106/8_qgcugs.jpg", tags: ["Tahoe", "2025"],
+  }, 
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623105/7_dsp8tf.jpg", tags: ["Tahoe", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623105/6_jn2qeh.jpg", tags: ["Tahoe", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623102/5_hltchb.jpg", tags: ["Tahoe", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623100/3_gwfs47.jpg", tags: ["Tahoe", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623100/4_s7raox.jpg", tags: ["Tahoe", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623100/2_aoohwb.jpg", tags: ["Tahoe", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623100/1_ewq3em.jpg", tags: ["Tahoe", "2025"],
+  },
+
+
   // Taiwan
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1736252832/negative-0-_22_2_p03f1p.jpg", tags: ["Taiwan", "2024"],
