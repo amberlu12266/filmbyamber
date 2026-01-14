@@ -1,5 +1,57 @@
 const container = document.querySelector(".container");
 
+// Lightbox elements
+const lightbox = document.getElementById("lightbox");
+const lightboxImage = document.getElementById("lightbox-image");
+const lightboxLocation = document.getElementById("lightbox-location");
+const lightboxYear = document.getElementById("lightbox-year");
+const lightboxClose = document.getElementById("lightbox-close");
+
+// Open lightbox with photo data
+function openLightbox(photo) {
+  lightboxImage.src = photo.image;
+
+  // Extract location and year from tags
+  if (photo.tags && photo.tags.length > 0) {
+    // First tag is usually location (e.g., "Taipei 2025", "Taiwan", "amalfi")
+    const location = photo.tags[0];
+    // Second tag is usually just the year
+    const year = photo.tags[1] || "";
+
+    lightboxLocation.textContent = location;
+    lightboxYear.textContent = year;
+  } else {
+    lightboxLocation.textContent = "";
+    lightboxYear.textContent = "";
+  }
+
+  lightbox.classList.add("active");
+  document.body.style.overflow = "hidden";
+}
+
+// Close lightbox
+function closeLightbox() {
+  lightbox.classList.remove("active");
+  document.body.style.overflow = "";
+}
+
+// Close on X button click
+lightboxClose.addEventListener("click", closeLightbox);
+
+// Close on clicking outside the image
+lightbox.addEventListener("click", (e) => {
+  if (e.target === lightbox) {
+    closeLightbox();
+  }
+});
+
+// Close on Escape key
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && lightbox.classList.contains("active")) {
+    closeLightbox();
+  }
+});
+
 function generateMasonryGrid(columns, photos) {
   container.innerHTML = "";
 
@@ -29,10 +81,10 @@ function generateMasonryGrid(columns, photos) {
       image.src = photo.image;
       let hoverDiv = document.createElement("div");
       hoverDiv.classList.add("overlay");
-      // let title = document.createElement('h3');
-      // title.innerText = photo.title;
 
-      // hoverDiv.appendChild(title);
+      // Add click event to open lightbox
+      photoDiv.addEventListener("click", () => openLightbox(photo));
+
       photoDiv.append(image, hoverDiv);
       column.appendChild(photoDiv);
     });
@@ -53,16 +105,26 @@ window.addEventListener("resize", () => {
     (previousScreenSize < 600 || previousScreenSize >= 1000)
   ) {
     generateMasonryGrid(2, photos);
-  } else if (window.innerWidth >= 1000 && previousScreenSize < 1000) {
+  } else if (
+    window.innerWidth >= 1000 &&
+    window.innerWidth < 1740 &&
+    (previousScreenSize < 1000 || previousScreenSize >= 1740)
+  ) {
+    generateMasonryGrid(3, photos);
+  } else if (window.innerWidth >= 1740 && previousScreenSize < 1740) {
     generateMasonryGrid(4, photos);
   }
+
   previousScreenSize = window.innerWidth;
 });
 
+// Initial load
 if (previousScreenSize < 600) {
   generateMasonryGrid(1, photos);
 } else if (previousScreenSize >= 600 && previousScreenSize < 1000) {
   generateMasonryGrid(2, photos);
+} else if (previousScreenSize >= 1000 && previousScreenSize < 1740) {
+  generateMasonryGrid(3, photos);
 } else {
   generateMasonryGrid(4, photos);
 }
