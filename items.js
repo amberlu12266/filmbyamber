@@ -1,114 +1,266 @@
 const photos = [];
 
 const images = [
-  // coachella 2025
+  // Taipei-2026
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623155/46_c5i2mf.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408400/IMG_9390_vy1rfk.jpg", tags: ["Taipei 2025", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623155/45_gumx9g.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408425/001056140002_xw7hx8.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623153/44_pur8yh.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408394/001056130004_nadcym.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623153/43_g1bh9z.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408414/IMG_9391_jydqxa.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623152/42_xpht3v.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408395/001056130005_wn5t7g.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623152/41_ize6cp.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408402/IMG_9392_rr3c9l.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623150/40_zxevyg.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408426/001056130028_yb2sqj.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623150/39_bhywcr.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408426/001056140004_vmk0mu.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623149/38_bk2xr7.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408397/IMG_9393_bhvtts.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623149/37_usi9r7.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408412/001056130003_rvwxx9.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623147/36_ecg1ib.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408405/001056130002_eknzjh.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623146/35_wepywg.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408430/001056130023_h67991.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623144/33_qdgcdt.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408430/001056130020_skhgsn.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623144/32_nn5cdu.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408429/001056130027_qxbyv6.jpg", tags: ["Taipei", "2025"],
+  },
+
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408426/001056140003_dutw2b.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623143/31_szxtez.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408436/001056130010_mtxrxm.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623142/30_cemwjz.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408435/001056130013_fx0e9w.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623142/29_vop4s4.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408433/001056130017_uwomnp.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623140/28_pm16ug.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408433/001056130018_vaipoa.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623139/26_jxri8m.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408431/001056130021_lw9v8q.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623139/27_z64kfc.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408439/001056130008_zzjcuk.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623138/24_wnqtie.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408438/001056130025_nt7dps.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623139/25_ipmbdo.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408438/001056130014_uixhjb.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623138/23_jil9re.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408437/001056130011_eg51sv.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623136/22_xaqfo6.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408437/001056130009_jqaxnr.jpg", tags: ["Taipei", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623135/20_wiesce.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408442/001056130024_zjswxr.jpg", tags: ["Taipei", "2025"],
+  },
+
+  // Japan
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408414/001056140013_ofmvjs.jpg", tags: ["Japan", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623134/19_mcdign.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408392/001056140025_thwmjj.jpg", tags: ["Japan", "2025"],
   },
   {
-    // url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623135/21_tjjnwe.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408401/001056140026_xm6vct.jpg", tags: ["Japan", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623134/18_qh6zxd.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408402/001056140023_xy3v4i.jpg", tags: ["Japan", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623132/17_bfys4l.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408405/001056140028_kszho9.jpg", tags: ["Japan", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623131/15_qe7apz.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408406/001056140021_lhqdot.jpg", tags: ["Japan", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623131/16_fxf9fk.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408408/001056140016_y7dnkc.jpg", tags: ["Japan", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623130/14_zrcyep.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408410/001056140018_rqy75x.jpg", tags: ["Japan", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623130/13_c186hl.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408412/001056140020_ur3tvg.jpg", tags: ["Japan", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623119/12_cacdic.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408414/001056140012_vxxsft.jpg", tags: ["Japan", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623109/11_w09yyu.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408414/001056140019_ivlomj.jpg", tags: ["Japan", "2025"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623107/10_sby20t.jpg", tags: ["Coachella 2025", "2025"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408417/001056140010_ubp0u6.jpg", tags: ["Japan", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408418/001056140014_lgbztm.jpg", tags: ["Japan", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408418/001056140015_y8kwk6.jpg", tags: ["Japan", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408422/001056140007_sgtgtx.jpg", tags: ["Japan", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408423/001056140009_zrktvj.jpg", tags: ["Japan", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408422/001056140005_zlhkmn.jpg", tags: ["Japan", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408440/001056140022_j2n0hw.jpg", tags: ["Japan", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408432/001056140006_uaoefa.jpg", tags: ["Japan", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408430/001056140024_xnfd9y.jpg", tags: ["Japan", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408424/001056140008_mm8req.jpg", tags: ["Japan", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408441/001056140011_ivjvdp.jpg", tags: ["Japan", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1768408440/001056140017_uzgnhq.jpg", tags: ["Japan", "2025"],
+  },
+
+  // Coachella
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623155/46_c5i2mf.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623155/45_gumx9g.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745626741/44_pur8yh.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623153/43_g1bh9z.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623152/42_xpht3v.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623152/41_ize6cp.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623150/40_zxevyg.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623150/39_bhywcr.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623149/38_bk2xr7.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623149/37_usi9r7.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623146/35_wepywg.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623147/36_ecg1ib.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623144/33_qdgcdt.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623144/32_nn5cdu.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623143/31_szxtez.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623142/30_cemwjz.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623142/29_vop4s4.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623140/28_pm16ug.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623139/26_jxri8m.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623139/27_z64kfc.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623138/24_wnqtie.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623139/25_ipmbdo.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623138/23_jil9re.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623136/22_xaqfo6.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623135/20_wiesce.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623134/19_mcdign.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  // {
+  //   url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623135/21_tjjnwe.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  // },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623134/18_qh6zxd.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623132/17_bfys4l.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623131/15_qe7apz.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623131/16_fxf9fk.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623130/14_zrcyep.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623130/13_c186hl.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623119/12_cacdic.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623109/11_w09yyu.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623107/10_sby20t.jpg", tags: ["Coachella Valley, Palm Springs", "2025"],
   },
 
   // bay area
@@ -117,7 +269,7 @@ const images = [
   },
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623156/48_xd69ny.jpg", tags: ["Bay area", "2025"],
-  }, 
+  },
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623159/50_ghgjct.jpg", tags: ["Bay area", "2025"],
   },
@@ -137,7 +289,7 @@ const images = [
   },
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623106/8_qgcugs.jpg", tags: ["Tahoe", "2025"],
-  }, 
+  },
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1745623105/7_dsp8tf.jpg", tags: ["Tahoe", "2025"],
   },
@@ -263,10 +415,10 @@ const images = [
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1736252735/negative-0-_3_f2nhes.jpg", tags: ["netherlands", "2024"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1736252736/negative-0-_11_rv9i31.jpg", tags: ["netherlands", "2024"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1736252740/negative-0-_6_zlenly.jpg", tags: ["netherlands", "2024"],
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1736252740/negative-0-_6_zlenly.jpg", tags: ["netherlands", "2024"],
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1736252736/negative-0-_11_rv9i31.jpg", tags: ["netherlands", "2024"],
   },
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1736252741/negative-0-_4_gqxljv.jpg", tags: ["netherlands", "2024"],
@@ -290,8 +442,8 @@ const images = [
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1736252768/negative-0-_8_teth4d.jpg", tags: ["netherlands", "2024"],
   },
 
-  
-  
+
+
   // amalfi
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735560498/negative0-00-22_xoplz0.jpg", tags: ["amalfi", "2024"],
@@ -442,12 +594,11 @@ const images = [
   },
 
   // album
-
-  {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735145327/2071030-R1-056-26A_ak9cbl.jpg",
-  },
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143848/IMG_7330_aigldm.jpg",
+  },
+  {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735145327/2071030-R1-056-26A_ak9cbl.jpg",
   },
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143848/2071030-R1-000-XA_dldgf1.jpg",
@@ -546,7 +697,7 @@ const images = [
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143804/Negative0-00-24_pxquyc.jpg",
   },
-  
+
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143798/Negative-020_hmazn4.jpg",
   },
@@ -577,13 +728,13 @@ const images = [
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143790/Negative-09_ibsb64.jpg",
   },
   {
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143786/Negative-08_m1bdvu.jpg",
+  },
+  {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143787/Negative-018_sykkuz.jpg",
   },
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143786/Negative-015_d8xldz.jpg",
-  },
-  {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143786/Negative-08_m1bdvu.jpg",
   },
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143785/Negative-023_ssdloq.jpg",
@@ -792,11 +943,11 @@ const images = [
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143252/4097-12_llzo5y.jpg",
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143246/4097-02_rlzycx.jpg",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143246/4097-08_rqkmjg.jpg",
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143246/4097-08_rqkmjg.jpg",
-  }, 
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143246/4097-02_rlzycx.jpg",
+  },
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143246/4097-07_ocpzyg.jpg",
   },
@@ -804,15 +955,15 @@ const images = [
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143244/4097-20_rey5oc.jpg",
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143242/4097-11_tfehu0.jpg",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143241/4097-01_trajdr.jpg",
   },
   {
-    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143241/4097-01_trajdr.jpg",
+    url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143242/4097-11_tfehu0.jpg",
   },
   {
     url: "https://res.cloudinary.com/dekqt2ngb/image/upload/f_auto,q_auto,w_1000/v1735143240/4097-03_sa7ffc.jpg",
   },
-  
+
 ];
 
 
