@@ -1,5 +1,42 @@
 const container = document.querySelector(".container");
 
+// Current filter state
+let currentFilter = "all";
+let filteredPhotos = [...photos];
+
+// Filter photos by year
+function filterPhotos(filter) {
+  currentFilter = filter;
+  if (filter === "all") {
+    filteredPhotos = [...photos];
+  } else {
+    filteredPhotos = photos.filter(photo => photo.tags && photo.tags.includes(filter));
+  }
+  refreshGrid();
+}
+
+// Refresh the grid with current filtered photos
+function refreshGrid() {
+  if (window.innerWidth < 600) {
+    generateMasonryGrid(1, filteredPhotos);
+  } else if (window.innerWidth >= 600 && window.innerWidth < 1000) {
+    generateMasonryGrid(2, filteredPhotos);
+  } else if (window.innerWidth >= 1000 && window.innerWidth < 1740) {
+    generateMasonryGrid(3, filteredPhotos);
+  } else {
+    generateMasonryGrid(4, filteredPhotos);
+  }
+}
+
+// Filter button event listeners
+document.querySelectorAll(".filter-item").forEach(item => {
+  item.addEventListener("click", () => {
+    document.querySelectorAll(".filter-item").forEach(i => i.classList.remove("active"));
+    item.classList.add("active");
+    filterPhotos(item.dataset.filter);
+  });
+});
+
 // Lightbox elements
 const lightbox = document.getElementById("lightbox");
 const lightboxImage = document.getElementById("lightbox-image");
@@ -98,21 +135,21 @@ window.addEventListener("resize", () => {
   imageIndex = 0;
 
   if (window.innerWidth < 600 && previousScreenSize >= 600) {
-    generateMasonryGrid(1, photos);
+    generateMasonryGrid(1, filteredPhotos);
   } else if (
     window.innerWidth >= 600 &&
     window.innerWidth < 1000 &&
     (previousScreenSize < 600 || previousScreenSize >= 1000)
   ) {
-    generateMasonryGrid(2, photos);
+    generateMasonryGrid(2, filteredPhotos);
   } else if (
     window.innerWidth >= 1000 &&
     window.innerWidth < 1740 &&
     (previousScreenSize < 1000 || previousScreenSize >= 1740)
   ) {
-    generateMasonryGrid(3, photos);
+    generateMasonryGrid(3, filteredPhotos);
   } else if (window.innerWidth >= 1740 && previousScreenSize < 1740) {
-    generateMasonryGrid(4, photos);
+    generateMasonryGrid(4, filteredPhotos);
   }
 
   previousScreenSize = window.innerWidth;
@@ -120,11 +157,11 @@ window.addEventListener("resize", () => {
 
 // Initial load
 if (previousScreenSize < 600) {
-  generateMasonryGrid(1, photos);
+  generateMasonryGrid(1, filteredPhotos);
 } else if (previousScreenSize >= 600 && previousScreenSize < 1000) {
-  generateMasonryGrid(2, photos);
+  generateMasonryGrid(2, filteredPhotos);
 } else if (previousScreenSize >= 1000 && previousScreenSize < 1740) {
-  generateMasonryGrid(3, photos);
+  generateMasonryGrid(3, filteredPhotos);
 } else {
-  generateMasonryGrid(4, photos);
+  generateMasonryGrid(4, filteredPhotos);
 }

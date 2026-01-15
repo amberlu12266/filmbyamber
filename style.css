@@ -41,51 +41,49 @@ main {
 /* navigation */
 .topnav {
     background-color: var(--background-color);
-    overflow: hidden;
     width: 100%;
-    height:fit-content;
     display: flex;
-    align-items: top;
+    flex-direction: column;
     padding: 32px 2vw;
     z-index: 10;
-    justify-content: space-between;
-    gap: 24px;
-  }
-  
-  .topnav a {
-    float: left;
-    color: var( --text-color);
-    /* padding: 14px 0px; */
-    text-decoration: none;
-  }
-  
-  .topnav a.split {
-    float: right;
-    /* background-color: #04AA6D; */
-    color: var( --text-color);
+    gap: 8px;
   }
 
-  .filter .gallery-filter{
-    padding: 0 15px;
-    width: 100%;
-    text-align: center;
- }
- .filter .gallery-filter .filter-item{
+  .header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .description {
+    margin: 0;
+  }
+
+  .filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 8px;
+  }
+
+ .filter .filter-item {
     color: var( --text-color);
-    font-size: 15px;
-    /* border: 2px solid var( --text-color); */
+    font-size: 12px;
     display: inline-block;
     border-radius: 20px;
-    margin-top: 8px;
-    margin-right: 8px;
     cursor: pointer;
-    padding: 8px 20px 8px 20px;
+    padding: 8px 16px;
     line-height: 1.2;
     transition: all 0.3s ease;
+    opacity: 0.5;
  }
- .gallery .gallery-item.hide{
-    display: none;
-}
+ .filter .filter-item:hover {
+    opacity: 0.8;
+ }
+ .filter .filter-item.active {
+    opacity: 1;
+    border: 1px solid var(--text-color);
+ }
  
 #icon {
     cursor: pointer;
@@ -258,6 +256,18 @@ p {
 
 .photo:hover img {
     opacity: 0.85;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .filter .filter-item {
+        font-size: 11px;
+        padding: 6px 12px;
+    }
 }
 
 
